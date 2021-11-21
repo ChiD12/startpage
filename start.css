@@ -17,10 +17,32 @@ ul{
     
 }
 
+#youtube{
+    color: red;
+}
+
+#twitch{
+    color: purple;
+}
+
+#mail{
+    color: #E5392C;
+}
+
+#cal{
+    color: #34A853;
+}
+
+#drive{
+    color: #4183F1;
+}
+
 a {
     color: inherit; /* blue colors for links too */
     text-decoration: inherit; /* no underline */
   }
+
+
 
 .box{
 
