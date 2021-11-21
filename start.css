@@ -1,0 +1,49 @@
+body{
+    background-color: #24283B;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: 'Fira Code', monospace;
+}
+ul{
+    list-style-type: '-> ~/';
+}
+
+/* li:before { content: '\1F409'; margin-left: -20px; margin-right: 10px; }  */
+.inner{
+    color: white;
+    
+}
+
+a {
+    color: inherit; /* blue colors for links too */
+    text-decoration: inherit; /* no underline */
+  }
+
+.box{
+
+    border: 0.5px solid black;
+    width: 500px;
+    height: 500px;
+    align-items: center;
+    align-content: center;
+    padding: 5px;
+    margin: 5px;
+
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    color: white;
+}
+
+.img{
+    object-fit: cover;
+    width: 350px;
+    height: 500px;
+    padding: 5px;
+    margin: 5px;
+    border: 10px solid white;
+}
